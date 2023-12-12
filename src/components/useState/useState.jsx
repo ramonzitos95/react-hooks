@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+import './useState.jsx.css';
 import { useState } from 'react';
 
 function UseState() {
@@ -14,6 +13,9 @@ function UseState() {
   const handleIncrement = () => {
     setCounter(counter + 1);
   };
+
+  const logo =
+    'https://th.bing.com/th/id/R.2bee11a830bacc5ae9006df56b20c33a?rik=nXUBy4boCTrW8w&pid=ImgRaw&r=0';
 
   return (
     <div className="App">
